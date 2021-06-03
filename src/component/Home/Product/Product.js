@@ -33,7 +33,7 @@ const ProductData=[
         
     }
 ]
-const Trainer = () => {
+const Product = () => {
     return (
         <section >
              <div className="text-center mt-3 my-5 "> 
@@ -48,4 +48,4 @@ const Trainer = () => {
     );
 };
 
-export default Trainer;
+export default Product;

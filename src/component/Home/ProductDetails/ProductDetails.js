@@ -2,7 +2,7 @@ import React from 'react';
 
 import './ProductDetails.css'
 
-const TrainerDetails = ({product}) => {
+const ProductDetails = ({product}) => {
     return (
         <div className="col-md-3 text-center product">
         <img style={{width:'200px'}} src={product.image} alt=""/>
@@ -13,4 +13,4 @@ const TrainerDetails = ({product}) => {
     );
 };
 
-export default TrainerDetails;
+export default ProductDetails;
